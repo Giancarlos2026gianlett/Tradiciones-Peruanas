@@ -1,0 +1,101 @@
+
+body {
+  background-color: #111111;
+  color: #E0E0E0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #333;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+img {
+    display: block;
+    max-width: 65%;     /* 🔽 aquí reduces el tamaño */
+    height: auto;       /* mantiene proporción */
+    margin: 35px auto;  /* centradas */
+    border: 1px solid #444;
+}
+p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    margin: 30px 0;
+    border: 1px solid #444;
+}
+
+img {
+    display: block;        /* permite centrar */
+    margin: 30px auto;     /* CENTRO horizontal */
+    max-width: 60%;        /* tamaño reducido */
+    height: auto;          /* mantiene proporción */
+    border: 1px solid #444;
+}
+p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 1rem;
+  color: #B0B0B0;
+  font-size: 0.9rem;
+}
+
+
+
+/* Botones fijos llamativos */
+.btn-fijo {
+    position: fixed;
+    z-index: 999;
+    padding: 16px 28px;
+    font-size: 1.05rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+/* BOTÓN RETROCEDER – ESQUINA INFERIOR IZQUIERDA */
+.btn-retroceder {
+    bottom: 25px;
+    left: 25px;
+    background: linear-gradient(135deg, #666, #bbb);
+    color: #000;
+}
+
+.btn-retroceder:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 35px rgba(220, 220, 220, 0.8);
+}
+
+/* BOTÓN SIGUIENTE – ESQUINA INFERIOR DERECHA */
+.btn-siguiente-fijo {
+    bottom: 25px;
+    right: 25px;
+    background: linear-gradient(135deg, #d4af37, #fff1b8);
+    color: #000;
+}
+
+.btn-siguiente-fijo:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.9);
+}
